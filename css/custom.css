@@ -1,0 +1,36 @@
+/*
+ Custom enumerate environment modified from the template's publication environment
+ */
+
+ol.enumerate {
+  display: block;
+  /*display: flex;*/
+  list-style: none;
+  margin: 7px 0 7px 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+ol.enumerate li {
+  display: flex;
+  align-items: baseline;
+  margin: 0;
+  padding: 0;
+}
+
+ol.enumerate li p:before {
+  line-height: 1;
+  margin-right: 5px;
+}
+
+ol.enumerate.list {
+  counter-reset: counter;
+}
+
+ol.enumerate.list li p {
+  counter-increment: counter;
+}
+
+ol.enumerate.list li p:before {
+  content: "["counter(counter)"]";
+}
