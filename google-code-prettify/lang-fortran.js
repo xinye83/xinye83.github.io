@@ -61,7 +61,7 @@ PR['registerLangHandler'](
             [PR['PR_LITERAL'], /^\.(?:true|false)\./i],
             // User defined .operators.
             [PR['PR_KEYWORD'], /^\.\w*\./i],
-            [PR['PR_TYPE'], /^(?:character|complex|double *precision|integer|real)\b/i],
+            [PR['PR_TYPE'], /^(?:character|complex|double *precision|integer|real|logical)\b/i],
             [PR['PR_LITERAL'], /^[+\-]?\.?\d+(?:\.\d*)?(?:[EeDd][+\-]?\d+)?/],
             //
             [PR['PR_PUNCTUATION'], /^[+\-/*=^&|<>%[\]()?:.,]/ ],

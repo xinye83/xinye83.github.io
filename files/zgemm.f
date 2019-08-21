@@ -188,7 +188,7 @@
       SUBROUTINE ZGEMM(TRANSA,TRANSB,M,N,K,ALPHA,A,LDA,B,LDB,BETA,C,LDC)
 *
 *  -- Reference BLAS level3 routine (version 3.7.0) --
-*  -- Reference BLAS is a software package provided by Univ. of Tennessee,    --
+*  -- Reference BLAS is a software package provided by Univ. of Tennessee,--
 *  -- Univ. of California Berkeley, Univ. of Colorado Denver and NAG Ltd..--
 *     December 2016
 *
