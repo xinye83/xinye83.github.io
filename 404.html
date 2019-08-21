@@ -18,7 +18,7 @@ permalink: /404.html
 		gtag('config', 'UA-145843008-1');
 	</script>
 
-	<title>Xin Ye - Personal Website</title>
+	<title>Error 404</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="project-website-template/css/frame.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="project-website-template/css/controls.css" media="screen" rel="stylesheet" type="text/css" />
@@ -29,9 +29,13 @@ permalink: /404.html
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="project-website-template/js/menu.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="google-code-prettify/prettify.css">
+	<script type="text/javascript" src="google-code-prettify/prettify.js"></script>
+	<script src='google-code-prettify/lang-fortran.js'/></script>
 </head>
 
-<body>
+<body onload="PR.prettyPrint()">
 	<div class="menu-container"></div>
 	<div class="content-container">
 		<div class="content">
@@ -39,7 +43,13 @@ permalink: /404.html
 				<!--Start 404 Message-->
 				<div class="flex-row add-top-margin">
 					<div class="flex-item flex-column">
-						<h2>404 NOT FOUND</h2>
+						<h2 class="add-top-margin add-bottom-margin">404. This page &#8708;.</h2>
+						<p class="add-top-margin">
+							<a href="index.html" class="menu-index">Back to home</a> or stay here and read the source code of <code>zgemm.f</code> from <a target="_blank" href="http://www.netlib.org/lapack/">LAPACK</a>.
+						</p>
+						<pre class="prettyprint lang-fortran">
+							<!--#include virtual="files/zgemm.f" -->
+						</pre>
 					</div>
 				</div>
 				<!--End 404 Message-->
