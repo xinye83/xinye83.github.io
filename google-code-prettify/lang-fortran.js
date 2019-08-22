@@ -47,7 +47,7 @@ PR['registerLangHandler'](
         ],
         [
             // Fixed-form style comment - c or * in first column
-            [PR['PR_COMMENT'], /^\n+(?:c|\*).*/i],
+            [PR['PR_COMMENT'], /^\*[^\r\n]*/, null],
             // 'type(foo)' is a type
             // 'type foo' is a keyword
             [PR['PR_TYPE'], /^type *(?:\([^ \r\n]+\))/i],
