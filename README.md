@@ -13,7 +13,7 @@
 
 - images: all images in this site.
 
-- google-code-prettify: necessary files for the [google/code-prettify](https://github.com/google/code-prettify "google-code-prettify") package to work.
+- google-code-prettify: necessary files for the [google/code-prettify](https://github.com/google/code-prettify "google/code-prettify") package to work.
 
 	- lang-fortran.js: modified from [ZedThree](https://github.com/ZedThree "ZedThree")'s version.
 
