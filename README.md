@@ -29,6 +29,8 @@
 
 - menu.html
 
+- random.html
+
 - research.html
 
 - travel.html
