@@ -40,3 +40,5 @@
 - lang-fortran.js still has bug: \* not at the start of a line still counts as the start of comment.
 
 - How to insert the plain text from files/zgemm.f to 404.html without explicitly copying and pasting?
+
+- The code block does not fit in a mobile screen.
