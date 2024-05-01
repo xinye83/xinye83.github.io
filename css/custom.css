@@ -30,5 +30,5 @@ ol.enumerate.list li p {
 }
 
 ol.enumerate.list li p:before {
-  content: "["counter(counter)"]";
+  content: "[" counter(counter)"]";
 }
